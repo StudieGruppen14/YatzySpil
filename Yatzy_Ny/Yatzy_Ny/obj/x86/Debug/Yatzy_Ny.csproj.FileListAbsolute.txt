@@ -1,0 +1,6 @@
+/Users/christofferhenriksen/Projects/Yatzy_Ny/Yatzy_Ny/bin/Debug/Yatzy_Ny.exe
+/Users/christofferhenriksen/Projects/Yatzy_Ny/Yatzy_Ny/bin/Debug/Yatzy_Ny.pdb
+/Users/christofferhenriksen/Projects/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy_Ny.csprojAssemblyReference.cache
+/Users/christofferhenriksen/Projects/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy_Ny.csproj.CoreCompileInputs.cache
+/Users/christofferhenriksen/Projects/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy_Ny.exe
+/Users/christofferhenriksen/Projects/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy_Ny.pdb
