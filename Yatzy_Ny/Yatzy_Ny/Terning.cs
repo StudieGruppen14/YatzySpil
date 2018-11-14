@@ -1,37 +1,30 @@
 ﻿using System;
-namespace Yatzy_Ny
+
+public class Terning
 {
-    internal class Terning
+    private int Øjne;
+    private static Random r = new Random(); // static = det betyder at der er én random generator
+    private Boolean HoldMig = false;
+
+    public Terning()
     {
-        private int AntalØjne;
-        private static Random r = new Random();
-        private Boolean HoldMig = false;
+        KastTerning();
+    }
 
-        public int Øjne
-        {
-            get ( return AntalØjne; )
-
-        }
-
-    public Boolean Holdt
-    {
-        get ( return HoldMig; )
-        }
-
-        public void KastTerning()
+    public void KastTerning()
     {
         if (HoldMig == false)
-        { AntalØjne = r.Next(1, 7); }
+        {
+            Øjne = r.Next(1, 7);
+        }
+    }
+    public void HoldTerning(Boolean Hold)
+    {
+        HoldMig = Hold;
     }
 
-    public void HoldTerning()
+    public int AntalØjne
     {
-        HoldMig = true;
+        get { return Øjne; } // gør at man ikke kan ændre på terningens værdi i spillet
     }
-
-    public void TagTerningMed()
-    {
-        HoldMig = false;
-    }
-}
 }

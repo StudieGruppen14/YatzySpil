@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{BD2A0977-E2A7-406D-A8CB-D90559E4A88E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Yatzy_Ny</RootNamespace>
+    <RootNamespace>Yatzy</RootNamespace>
     <AssemblyName>Yatzy_Ny</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
