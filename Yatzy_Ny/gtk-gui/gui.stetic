@@ -7,7 +7,7 @@
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../bin/Debug/Yatzy_Ny.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="706 739">
+  <widget class="Gtk.Window" id="MainWindow" design-size="780 739">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -39,7 +39,7 @@
             <property name="UseUnderline">True</property>
           </widget>
           <packing>
-            <property name="X">145</property>
+            <property name="X">115</property>
             <property name="Y">10</property>
           </packing>
         </child>
@@ -49,7 +49,7 @@
             <property name="WidthRequest">100</property>
             <property name="HeightRequest">0</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -75,7 +75,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -88,7 +88,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -101,7 +101,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -351,7 +351,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -364,7 +364,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -377,7 +377,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -390,7 +390,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -403,7 +403,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -416,7 +416,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -429,7 +429,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -442,7 +442,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -455,7 +455,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -468,7 +468,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -481,7 +481,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -494,7 +494,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -507,7 +507,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -520,7 +520,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -533,7 +533,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -546,7 +546,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -559,7 +559,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -572,7 +572,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -585,7 +585,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -598,7 +598,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -611,7 +611,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -624,7 +624,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -637,7 +637,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -650,7 +650,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -663,7 +663,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -676,7 +676,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -689,7 +689,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -702,7 +702,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -715,7 +715,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -728,7 +728,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -741,7 +741,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -754,7 +754,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -767,7 +767,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -780,7 +780,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -793,7 +793,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -806,7 +806,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -819,7 +819,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -832,7 +832,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -845,7 +845,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -858,7 +858,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -871,7 +871,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -884,7 +884,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -897,7 +897,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -910,7 +910,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -923,7 +923,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -936,7 +936,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -949,7 +949,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -962,7 +962,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -975,7 +975,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -988,7 +988,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1001,7 +1001,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1014,7 +1014,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1027,7 +1027,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1040,7 +1040,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1053,7 +1053,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1066,7 +1066,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1079,7 +1079,7 @@
             <property name="MemberName" />
             <property name="WidthRequest">100</property>
             <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
+            <property name="IsEditable">False</property>
             <property name="InvisibleChar">●</property>
           </widget>
           <packing>
@@ -1158,20 +1158,6 @@
           </packing>
         </child>
         <child>
-          <widget class="Gtk.Entry" id="entry63">
-            <property name="MemberName" />
-            <property name="WidthRequest">145</property>
-            <property name="HeightRequest">202</property>
-            <property name="CanFocus">True</property>
-            <property name="IsEditable">True</property>
-            <property name="InvisibleChar">●</property>
-          </widget>
-          <packing>
-            <property name="X">490</property>
-            <property name="Y">125</property>
-          </packing>
-        </child>
-        <child>
           <widget class="Gtk.Label" id="label23">
             <property name="MemberName" />
             <property name="LabelProp" translatable="yes">Muligheder:</property>
@@ -1192,6 +1178,18 @@
           <packing>
             <property name="X">592</property>
             <property name="Y">98</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ComboBoxEntry" id="mulighederCombo">
+            <property name="MemberName">mulighederCombo</property>
+            <property name="WidthRequest">145</property>
+            <property name="IsTextCombo">True</property>
+            <property name="Items" translatable="yes" />
+          </widget>
+          <packing>
+            <property name="X">490</property>
+            <property name="Y">130</property>
           </packing>
         </child>
       </widget>

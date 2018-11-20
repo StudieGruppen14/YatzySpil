@@ -1,0 +1,6 @@
+/Users/mette/Documents/GitHub/yatzy/Yatzy_Ny/Yatzy_Ny/bin/Debug/Yatzy_Ny.exe
+/Users/mette/Documents/GitHub/yatzy/Yatzy_Ny/Yatzy_Ny/bin/Debug/Yatzy_Ny.pdb
+/Users/mette/Documents/GitHub/yatzy/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy.csprojAssemblyReference.cache
+/Users/mette/Documents/GitHub/yatzy/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy.csproj.CoreCompileInputs.cache
+/Users/mette/Documents/GitHub/yatzy/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy_Ny.exe
+/Users/mette/Documents/GitHub/yatzy/Yatzy_Ny/Yatzy_Ny/obj/x86/Debug/Yatzy_Ny.pdb

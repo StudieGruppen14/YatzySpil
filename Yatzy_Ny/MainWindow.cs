@@ -31,8 +31,10 @@ public partial class MainWindow : Gtk.Window
         Terning4.Text = bæger.Terning4.AntalØjne.ToString();
         Terning5.Text = bæger.Terning5.AntalØjne.ToString();
 
-        enereSpiller1.Text = bæger.Point1ere().ToString();
+
+        mulighederCombo.AppendText(bæger.Point1ere().ToString()); // skal bruges til at flytte point resultat til muligheder 
+
     }
 }
 
-// jacob.bang@archlinux.dk
+

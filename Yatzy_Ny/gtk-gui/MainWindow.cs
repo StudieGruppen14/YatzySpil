@@ -189,11 +189,11 @@ public partial class MainWindow
 
 	private global::Gtk.CheckButton HoldTerning5;
 
-	private global::Gtk.Entry entry63;
-
 	private global::Gtk.Label label23;
 
 	private global::Gtk.Button button4;
+
+	private global::Gtk.ComboBoxEntry mulighederCombo;
 
 	protected virtual void Build()
 	{
@@ -225,7 +225,7 @@ public partial class MainWindow
 		this.SlutSpilKnap.Label = global::Mono.Unix.Catalog.GetString("Slut spil");
 		this.fixed2.Add(this.SlutSpilKnap);
 		global::Gtk.Fixed.FixedChild w2 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.SlutSpilKnap]));
-		w2.X = 145;
+		w2.X = 115;
 		w2.Y = 10;
 		// Container child fixed2.Gtk.Fixed+FixedChild
 		this.Terning1 = new global::Gtk.Entry();
@@ -233,7 +233,7 @@ public partial class MainWindow
 		this.Terning1.HeightRequest = 0;
 		this.Terning1.CanFocus = true;
 		this.Terning1.Name = "Terning1";
-		this.Terning1.IsEditable = true;
+		this.Terning1.IsEditable = false;
 		this.Terning1.InvisibleChar = '●';
 		this.fixed2.Add(this.Terning1);
 		global::Gtk.Fixed.FixedChild w3 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.Terning1]));
@@ -255,7 +255,7 @@ public partial class MainWindow
 		this.Terning3.WidthRequest = 100;
 		this.Terning3.CanFocus = true;
 		this.Terning3.Name = "Terning3";
-		this.Terning3.IsEditable = true;
+		this.Terning3.IsEditable = false;
 		this.Terning3.InvisibleChar = '●';
 		this.fixed2.Add(this.Terning3);
 		global::Gtk.Fixed.FixedChild w5 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.Terning3]));
@@ -266,7 +266,7 @@ public partial class MainWindow
 		this.Terning4.WidthRequest = 100;
 		this.Terning4.CanFocus = true;
 		this.Terning4.Name = "Terning4";
-		this.Terning4.IsEditable = true;
+		this.Terning4.IsEditable = false;
 		this.Terning4.InvisibleChar = '●';
 		this.fixed2.Add(this.Terning4);
 		global::Gtk.Fixed.FixedChild w6 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.Terning4]));
@@ -277,7 +277,7 @@ public partial class MainWindow
 		this.Terning5.WidthRequest = 100;
 		this.Terning5.CanFocus = true;
 		this.Terning5.Name = "Terning5";
-		this.Terning5.IsEditable = true;
+		this.Terning5.IsEditable = false;
 		this.Terning5.InvisibleChar = '●';
 		this.fixed2.Add(this.Terning5);
 		global::Gtk.Fixed.FixedChild w7 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.Terning5]));
@@ -477,7 +477,7 @@ public partial class MainWindow
 		this.NavnSpiller1.WidthRequest = 100;
 		this.NavnSpiller1.CanFocus = true;
 		this.NavnSpiller1.Name = "NavnSpiller1";
-		this.NavnSpiller1.IsEditable = true;
+		this.NavnSpiller1.IsEditable = false;
 		this.NavnSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.NavnSpiller1);
 		global::Gtk.Fixed.FixedChild w31 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.NavnSpiller1]));
@@ -488,7 +488,7 @@ public partial class MainWindow
 		this.enereSpiller1.WidthRequest = 100;
 		this.enereSpiller1.CanFocus = true;
 		this.enereSpiller1.Name = "enereSpiller1";
-		this.enereSpiller1.IsEditable = true;
+		this.enereSpiller1.IsEditable = false;
 		this.enereSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.enereSpiller1);
 		global::Gtk.Fixed.FixedChild w32 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.enereSpiller1]));
@@ -499,7 +499,7 @@ public partial class MainWindow
 		this.toereSpiller1.WidthRequest = 100;
 		this.toereSpiller1.CanFocus = true;
 		this.toereSpiller1.Name = "toereSpiller1";
-		this.toereSpiller1.IsEditable = true;
+		this.toereSpiller1.IsEditable = false;
 		this.toereSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.toereSpiller1);
 		global::Gtk.Fixed.FixedChild w33 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.toereSpiller1]));
@@ -510,7 +510,7 @@ public partial class MainWindow
 		this.treereSpiller1.WidthRequest = 100;
 		this.treereSpiller1.CanFocus = true;
 		this.treereSpiller1.Name = "treereSpiller1";
-		this.treereSpiller1.IsEditable = true;
+		this.treereSpiller1.IsEditable = false;
 		this.treereSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.treereSpiller1);
 		global::Gtk.Fixed.FixedChild w34 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.treereSpiller1]));
@@ -521,7 +521,7 @@ public partial class MainWindow
 		this.fireereSpiller1.WidthRequest = 100;
 		this.fireereSpiller1.CanFocus = true;
 		this.fireereSpiller1.Name = "fireereSpiller1";
-		this.fireereSpiller1.IsEditable = true;
+		this.fireereSpiller1.IsEditable = false;
 		this.fireereSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.fireereSpiller1);
 		global::Gtk.Fixed.FixedChild w35 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.fireereSpiller1]));
@@ -532,7 +532,7 @@ public partial class MainWindow
 		this.femereSpiller1.WidthRequest = 100;
 		this.femereSpiller1.CanFocus = true;
 		this.femereSpiller1.Name = "femereSpiller1";
-		this.femereSpiller1.IsEditable = true;
+		this.femereSpiller1.IsEditable = false;
 		this.femereSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.femereSpiller1);
 		global::Gtk.Fixed.FixedChild w36 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.femereSpiller1]));
@@ -543,7 +543,7 @@ public partial class MainWindow
 		this.seksereSpiller1.WidthRequest = 100;
 		this.seksereSpiller1.CanFocus = true;
 		this.seksereSpiller1.Name = "seksereSpiller1";
-		this.seksereSpiller1.IsEditable = true;
+		this.seksereSpiller1.IsEditable = false;
 		this.seksereSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.seksereSpiller1);
 		global::Gtk.Fixed.FixedChild w37 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.seksereSpiller1]));
@@ -554,7 +554,7 @@ public partial class MainWindow
 		this.DelSumSpiller1.WidthRequest = 100;
 		this.DelSumSpiller1.CanFocus = true;
 		this.DelSumSpiller1.Name = "DelSumSpiller1";
-		this.DelSumSpiller1.IsEditable = true;
+		this.DelSumSpiller1.IsEditable = false;
 		this.DelSumSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.DelSumSpiller1);
 		global::Gtk.Fixed.FixedChild w38 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.DelSumSpiller1]));
@@ -565,7 +565,7 @@ public partial class MainWindow
 		this.BonusSpiller1.WidthRequest = 100;
 		this.BonusSpiller1.CanFocus = true;
 		this.BonusSpiller1.Name = "BonusSpiller1";
-		this.BonusSpiller1.IsEditable = true;
+		this.BonusSpiller1.IsEditable = false;
 		this.BonusSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.BonusSpiller1);
 		global::Gtk.Fixed.FixedChild w39 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.BonusSpiller1]));
@@ -576,7 +576,7 @@ public partial class MainWindow
 		this.etparSpiller1.WidthRequest = 100;
 		this.etparSpiller1.CanFocus = true;
 		this.etparSpiller1.Name = "etparSpiller1";
-		this.etparSpiller1.IsEditable = true;
+		this.etparSpiller1.IsEditable = false;
 		this.etparSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.etparSpiller1);
 		global::Gtk.Fixed.FixedChild w40 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.etparSpiller1]));
@@ -587,7 +587,7 @@ public partial class MainWindow
 		this.toparSpiller1.WidthRequest = 100;
 		this.toparSpiller1.CanFocus = true;
 		this.toparSpiller1.Name = "toparSpiller1";
-		this.toparSpiller1.IsEditable = true;
+		this.toparSpiller1.IsEditable = false;
 		this.toparSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.toparSpiller1);
 		global::Gtk.Fixed.FixedChild w41 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.toparSpiller1]));
@@ -598,7 +598,7 @@ public partial class MainWindow
 		this.treensSpiller1.WidthRequest = 100;
 		this.treensSpiller1.CanFocus = true;
 		this.treensSpiller1.Name = "treensSpiller1";
-		this.treensSpiller1.IsEditable = true;
+		this.treensSpiller1.IsEditable = false;
 		this.treensSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.treensSpiller1);
 		global::Gtk.Fixed.FixedChild w42 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.treensSpiller1]));
@@ -609,7 +609,7 @@ public partial class MainWindow
 		this.fireensSpiller1.WidthRequest = 100;
 		this.fireensSpiller1.CanFocus = true;
 		this.fireensSpiller1.Name = "fireensSpiller1";
-		this.fireensSpiller1.IsEditable = true;
+		this.fireensSpiller1.IsEditable = false;
 		this.fireensSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.fireensSpiller1);
 		global::Gtk.Fixed.FixedChild w43 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.fireensSpiller1]));
@@ -620,7 +620,7 @@ public partial class MainWindow
 		this.LilleSpiller1.WidthRequest = 100;
 		this.LilleSpiller1.CanFocus = true;
 		this.LilleSpiller1.Name = "LilleSpiller1";
-		this.LilleSpiller1.IsEditable = true;
+		this.LilleSpiller1.IsEditable = false;
 		this.LilleSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.LilleSpiller1);
 		global::Gtk.Fixed.FixedChild w44 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.LilleSpiller1]));
@@ -631,7 +631,7 @@ public partial class MainWindow
 		this.StorSpiller1.WidthRequest = 100;
 		this.StorSpiller1.CanFocus = true;
 		this.StorSpiller1.Name = "StorSpiller1";
-		this.StorSpiller1.IsEditable = true;
+		this.StorSpiller1.IsEditable = false;
 		this.StorSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.StorSpiller1);
 		global::Gtk.Fixed.FixedChild w45 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.StorSpiller1]));
@@ -642,7 +642,7 @@ public partial class MainWindow
 		this.HusSpiller1.WidthRequest = 100;
 		this.HusSpiller1.CanFocus = true;
 		this.HusSpiller1.Name = "HusSpiller1";
-		this.HusSpiller1.IsEditable = true;
+		this.HusSpiller1.IsEditable = false;
 		this.HusSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.HusSpiller1);
 		global::Gtk.Fixed.FixedChild w46 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.HusSpiller1]));
@@ -653,7 +653,7 @@ public partial class MainWindow
 		this.ChancenSpiller1.WidthRequest = 100;
 		this.ChancenSpiller1.CanFocus = true;
 		this.ChancenSpiller1.Name = "ChancenSpiller1";
-		this.ChancenSpiller1.IsEditable = true;
+		this.ChancenSpiller1.IsEditable = false;
 		this.ChancenSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.ChancenSpiller1);
 		global::Gtk.Fixed.FixedChild w47 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.ChancenSpiller1]));
@@ -664,7 +664,7 @@ public partial class MainWindow
 		this.YatzySpiller1.WidthRequest = 100;
 		this.YatzySpiller1.CanFocus = true;
 		this.YatzySpiller1.Name = "YatzySpiller1";
-		this.YatzySpiller1.IsEditable = true;
+		this.YatzySpiller1.IsEditable = false;
 		this.YatzySpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.YatzySpiller1);
 		global::Gtk.Fixed.FixedChild w48 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.YatzySpiller1]));
@@ -675,7 +675,7 @@ public partial class MainWindow
 		this.SumSpiller1.WidthRequest = 100;
 		this.SumSpiller1.CanFocus = true;
 		this.SumSpiller1.Name = "SumSpiller1";
-		this.SumSpiller1.IsEditable = true;
+		this.SumSpiller1.IsEditable = false;
 		this.SumSpiller1.InvisibleChar = '●';
 		this.fixed2.Add(this.SumSpiller1);
 		global::Gtk.Fixed.FixedChild w49 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.SumSpiller1]));
@@ -686,7 +686,7 @@ public partial class MainWindow
 		this.NavnSpiller2.WidthRequest = 100;
 		this.NavnSpiller2.CanFocus = true;
 		this.NavnSpiller2.Name = "NavnSpiller2";
-		this.NavnSpiller2.IsEditable = true;
+		this.NavnSpiller2.IsEditable = false;
 		this.NavnSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.NavnSpiller2);
 		global::Gtk.Fixed.FixedChild w50 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.NavnSpiller2]));
@@ -697,7 +697,7 @@ public partial class MainWindow
 		this.enereSpiller2.WidthRequest = 100;
 		this.enereSpiller2.CanFocus = true;
 		this.enereSpiller2.Name = "enereSpiller2";
-		this.enereSpiller2.IsEditable = true;
+		this.enereSpiller2.IsEditable = false;
 		this.enereSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.enereSpiller2);
 		global::Gtk.Fixed.FixedChild w51 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.enereSpiller2]));
@@ -708,7 +708,7 @@ public partial class MainWindow
 		this.toereSpiller2.WidthRequest = 100;
 		this.toereSpiller2.CanFocus = true;
 		this.toereSpiller2.Name = "toereSpiller2";
-		this.toereSpiller2.IsEditable = true;
+		this.toereSpiller2.IsEditable = false;
 		this.toereSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.toereSpiller2);
 		global::Gtk.Fixed.FixedChild w52 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.toereSpiller2]));
@@ -719,7 +719,7 @@ public partial class MainWindow
 		this.treereSpiller2.WidthRequest = 100;
 		this.treereSpiller2.CanFocus = true;
 		this.treereSpiller2.Name = "treereSpiller2";
-		this.treereSpiller2.IsEditable = true;
+		this.treereSpiller2.IsEditable = false;
 		this.treereSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.treereSpiller2);
 		global::Gtk.Fixed.FixedChild w53 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.treereSpiller2]));
@@ -730,7 +730,7 @@ public partial class MainWindow
 		this.fireereSpiller2.WidthRequest = 100;
 		this.fireereSpiller2.CanFocus = true;
 		this.fireereSpiller2.Name = "fireereSpiller2";
-		this.fireereSpiller2.IsEditable = true;
+		this.fireereSpiller2.IsEditable = false;
 		this.fireereSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.fireereSpiller2);
 		global::Gtk.Fixed.FixedChild w54 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.fireereSpiller2]));
@@ -741,7 +741,7 @@ public partial class MainWindow
 		this.femereSpiller2.WidthRequest = 100;
 		this.femereSpiller2.CanFocus = true;
 		this.femereSpiller2.Name = "femereSpiller2";
-		this.femereSpiller2.IsEditable = true;
+		this.femereSpiller2.IsEditable = false;
 		this.femereSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.femereSpiller2);
 		global::Gtk.Fixed.FixedChild w55 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.femereSpiller2]));
@@ -752,7 +752,7 @@ public partial class MainWindow
 		this.seksereSpiller2.WidthRequest = 100;
 		this.seksereSpiller2.CanFocus = true;
 		this.seksereSpiller2.Name = "seksereSpiller2";
-		this.seksereSpiller2.IsEditable = true;
+		this.seksereSpiller2.IsEditable = false;
 		this.seksereSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.seksereSpiller2);
 		global::Gtk.Fixed.FixedChild w56 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.seksereSpiller2]));
@@ -763,7 +763,7 @@ public partial class MainWindow
 		this.DelSumSpiller2.WidthRequest = 100;
 		this.DelSumSpiller2.CanFocus = true;
 		this.DelSumSpiller2.Name = "DelSumSpiller2";
-		this.DelSumSpiller2.IsEditable = true;
+		this.DelSumSpiller2.IsEditable = false;
 		this.DelSumSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.DelSumSpiller2);
 		global::Gtk.Fixed.FixedChild w57 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.DelSumSpiller2]));
@@ -774,7 +774,7 @@ public partial class MainWindow
 		this.BonusSpiller2.WidthRequest = 100;
 		this.BonusSpiller2.CanFocus = true;
 		this.BonusSpiller2.Name = "BonusSpiller2";
-		this.BonusSpiller2.IsEditable = true;
+		this.BonusSpiller2.IsEditable = false;
 		this.BonusSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.BonusSpiller2);
 		global::Gtk.Fixed.FixedChild w58 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.BonusSpiller2]));
@@ -785,7 +785,7 @@ public partial class MainWindow
 		this.etparSpiller2.WidthRequest = 100;
 		this.etparSpiller2.CanFocus = true;
 		this.etparSpiller2.Name = "etparSpiller2";
-		this.etparSpiller2.IsEditable = true;
+		this.etparSpiller2.IsEditable = false;
 		this.etparSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.etparSpiller2);
 		global::Gtk.Fixed.FixedChild w59 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.etparSpiller2]));
@@ -796,7 +796,7 @@ public partial class MainWindow
 		this.toparSpiller2.WidthRequest = 100;
 		this.toparSpiller2.CanFocus = true;
 		this.toparSpiller2.Name = "toparSpiller2";
-		this.toparSpiller2.IsEditable = true;
+		this.toparSpiller2.IsEditable = false;
 		this.toparSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.toparSpiller2);
 		global::Gtk.Fixed.FixedChild w60 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.toparSpiller2]));
@@ -807,7 +807,7 @@ public partial class MainWindow
 		this.treensSpiller2.WidthRequest = 100;
 		this.treensSpiller2.CanFocus = true;
 		this.treensSpiller2.Name = "treensSpiller2";
-		this.treensSpiller2.IsEditable = true;
+		this.treensSpiller2.IsEditable = false;
 		this.treensSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.treensSpiller2);
 		global::Gtk.Fixed.FixedChild w61 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.treensSpiller2]));
@@ -818,7 +818,7 @@ public partial class MainWindow
 		this.fireensSpiller2.WidthRequest = 100;
 		this.fireensSpiller2.CanFocus = true;
 		this.fireensSpiller2.Name = "fireensSpiller2";
-		this.fireensSpiller2.IsEditable = true;
+		this.fireensSpiller2.IsEditable = false;
 		this.fireensSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.fireensSpiller2);
 		global::Gtk.Fixed.FixedChild w62 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.fireensSpiller2]));
@@ -829,7 +829,7 @@ public partial class MainWindow
 		this.LilleSpiller2.WidthRequest = 100;
 		this.LilleSpiller2.CanFocus = true;
 		this.LilleSpiller2.Name = "LilleSpiller2";
-		this.LilleSpiller2.IsEditable = true;
+		this.LilleSpiller2.IsEditable = false;
 		this.LilleSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.LilleSpiller2);
 		global::Gtk.Fixed.FixedChild w63 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.LilleSpiller2]));
@@ -840,7 +840,7 @@ public partial class MainWindow
 		this.StorSpiller2.WidthRequest = 100;
 		this.StorSpiller2.CanFocus = true;
 		this.StorSpiller2.Name = "StorSpiller2";
-		this.StorSpiller2.IsEditable = true;
+		this.StorSpiller2.IsEditable = false;
 		this.StorSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.StorSpiller2);
 		global::Gtk.Fixed.FixedChild w64 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.StorSpiller2]));
@@ -851,7 +851,7 @@ public partial class MainWindow
 		this.HusSpiller2.WidthRequest = 100;
 		this.HusSpiller2.CanFocus = true;
 		this.HusSpiller2.Name = "HusSpiller2";
-		this.HusSpiller2.IsEditable = true;
+		this.HusSpiller2.IsEditable = false;
 		this.HusSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.HusSpiller2);
 		global::Gtk.Fixed.FixedChild w65 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.HusSpiller2]));
@@ -862,7 +862,7 @@ public partial class MainWindow
 		this.ChancenSpiller2.WidthRequest = 100;
 		this.ChancenSpiller2.CanFocus = true;
 		this.ChancenSpiller2.Name = "ChancenSpiller2";
-		this.ChancenSpiller2.IsEditable = true;
+		this.ChancenSpiller2.IsEditable = false;
 		this.ChancenSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.ChancenSpiller2);
 		global::Gtk.Fixed.FixedChild w66 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.ChancenSpiller2]));
@@ -873,7 +873,7 @@ public partial class MainWindow
 		this.YatzySpiller2.WidthRequest = 100;
 		this.YatzySpiller2.CanFocus = true;
 		this.YatzySpiller2.Name = "YatzySpiller2";
-		this.YatzySpiller2.IsEditable = true;
+		this.YatzySpiller2.IsEditable = false;
 		this.YatzySpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.YatzySpiller2);
 		global::Gtk.Fixed.FixedChild w67 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.YatzySpiller2]));
@@ -884,7 +884,7 @@ public partial class MainWindow
 		this.SumSpiller2.WidthRequest = 100;
 		this.SumSpiller2.CanFocus = true;
 		this.SumSpiller2.Name = "SumSpiller2";
-		this.SumSpiller2.IsEditable = true;
+		this.SumSpiller2.IsEditable = false;
 		this.SumSpiller2.InvisibleChar = '●';
 		this.fixed2.Add(this.SumSpiller2);
 		global::Gtk.Fixed.FixedChild w68 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.SumSpiller2]));
@@ -895,7 +895,7 @@ public partial class MainWindow
 		this.NavnSpiller3.WidthRequest = 100;
 		this.NavnSpiller3.CanFocus = true;
 		this.NavnSpiller3.Name = "NavnSpiller3";
-		this.NavnSpiller3.IsEditable = true;
+		this.NavnSpiller3.IsEditable = false;
 		this.NavnSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.NavnSpiller3);
 		global::Gtk.Fixed.FixedChild w69 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.NavnSpiller3]));
@@ -906,7 +906,7 @@ public partial class MainWindow
 		this.enereSpiller3.WidthRequest = 100;
 		this.enereSpiller3.CanFocus = true;
 		this.enereSpiller3.Name = "enereSpiller3";
-		this.enereSpiller3.IsEditable = true;
+		this.enereSpiller3.IsEditable = false;
 		this.enereSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.enereSpiller3);
 		global::Gtk.Fixed.FixedChild w70 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.enereSpiller3]));
@@ -917,7 +917,7 @@ public partial class MainWindow
 		this.toereSpiller3.WidthRequest = 100;
 		this.toereSpiller3.CanFocus = true;
 		this.toereSpiller3.Name = "toereSpiller3";
-		this.toereSpiller3.IsEditable = true;
+		this.toereSpiller3.IsEditable = false;
 		this.toereSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.toereSpiller3);
 		global::Gtk.Fixed.FixedChild w71 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.toereSpiller3]));
@@ -928,7 +928,7 @@ public partial class MainWindow
 		this.treereSpiller3.WidthRequest = 100;
 		this.treereSpiller3.CanFocus = true;
 		this.treereSpiller3.Name = "treereSpiller3";
-		this.treereSpiller3.IsEditable = true;
+		this.treereSpiller3.IsEditable = false;
 		this.treereSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.treereSpiller3);
 		global::Gtk.Fixed.FixedChild w72 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.treereSpiller3]));
@@ -939,7 +939,7 @@ public partial class MainWindow
 		this.fireereSpiller3.WidthRequest = 100;
 		this.fireereSpiller3.CanFocus = true;
 		this.fireereSpiller3.Name = "fireereSpiller3";
-		this.fireereSpiller3.IsEditable = true;
+		this.fireereSpiller3.IsEditable = false;
 		this.fireereSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.fireereSpiller3);
 		global::Gtk.Fixed.FixedChild w73 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.fireereSpiller3]));
@@ -950,7 +950,7 @@ public partial class MainWindow
 		this.femereSpiller3.WidthRequest = 100;
 		this.femereSpiller3.CanFocus = true;
 		this.femereSpiller3.Name = "femereSpiller3";
-		this.femereSpiller3.IsEditable = true;
+		this.femereSpiller3.IsEditable = false;
 		this.femereSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.femereSpiller3);
 		global::Gtk.Fixed.FixedChild w74 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.femereSpiller3]));
@@ -961,7 +961,7 @@ public partial class MainWindow
 		this.seksereSpiller3.WidthRequest = 100;
 		this.seksereSpiller3.CanFocus = true;
 		this.seksereSpiller3.Name = "seksereSpiller3";
-		this.seksereSpiller3.IsEditable = true;
+		this.seksereSpiller3.IsEditable = false;
 		this.seksereSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.seksereSpiller3);
 		global::Gtk.Fixed.FixedChild w75 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.seksereSpiller3]));
@@ -972,7 +972,7 @@ public partial class MainWindow
 		this.DelSumSpiller3.WidthRequest = 100;
 		this.DelSumSpiller3.CanFocus = true;
 		this.DelSumSpiller3.Name = "DelSumSpiller3";
-		this.DelSumSpiller3.IsEditable = true;
+		this.DelSumSpiller3.IsEditable = false;
 		this.DelSumSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.DelSumSpiller3);
 		global::Gtk.Fixed.FixedChild w76 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.DelSumSpiller3]));
@@ -983,7 +983,7 @@ public partial class MainWindow
 		this.BonusSpiller3.WidthRequest = 100;
 		this.BonusSpiller3.CanFocus = true;
 		this.BonusSpiller3.Name = "BonusSpiller3";
-		this.BonusSpiller3.IsEditable = true;
+		this.BonusSpiller3.IsEditable = false;
 		this.BonusSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.BonusSpiller3);
 		global::Gtk.Fixed.FixedChild w77 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.BonusSpiller3]));
@@ -994,7 +994,7 @@ public partial class MainWindow
 		this.etparSpiller3.WidthRequest = 100;
 		this.etparSpiller3.CanFocus = true;
 		this.etparSpiller3.Name = "etparSpiller3";
-		this.etparSpiller3.IsEditable = true;
+		this.etparSpiller3.IsEditable = false;
 		this.etparSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.etparSpiller3);
 		global::Gtk.Fixed.FixedChild w78 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.etparSpiller3]));
@@ -1005,7 +1005,7 @@ public partial class MainWindow
 		this.toparSpiller3.WidthRequest = 100;
 		this.toparSpiller3.CanFocus = true;
 		this.toparSpiller3.Name = "toparSpiller3";
-		this.toparSpiller3.IsEditable = true;
+		this.toparSpiller3.IsEditable = false;
 		this.toparSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.toparSpiller3);
 		global::Gtk.Fixed.FixedChild w79 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.toparSpiller3]));
@@ -1016,7 +1016,7 @@ public partial class MainWindow
 		this.treensSpiller3.WidthRequest = 100;
 		this.treensSpiller3.CanFocus = true;
 		this.treensSpiller3.Name = "treensSpiller3";
-		this.treensSpiller3.IsEditable = true;
+		this.treensSpiller3.IsEditable = false;
 		this.treensSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.treensSpiller3);
 		global::Gtk.Fixed.FixedChild w80 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.treensSpiller3]));
@@ -1027,7 +1027,7 @@ public partial class MainWindow
 		this.fireensSpiller3.WidthRequest = 100;
 		this.fireensSpiller3.CanFocus = true;
 		this.fireensSpiller3.Name = "fireensSpiller3";
-		this.fireensSpiller3.IsEditable = true;
+		this.fireensSpiller3.IsEditable = false;
 		this.fireensSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.fireensSpiller3);
 		global::Gtk.Fixed.FixedChild w81 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.fireensSpiller3]));
@@ -1038,7 +1038,7 @@ public partial class MainWindow
 		this.LilleSpiller3.WidthRequest = 100;
 		this.LilleSpiller3.CanFocus = true;
 		this.LilleSpiller3.Name = "LilleSpiller3";
-		this.LilleSpiller3.IsEditable = true;
+		this.LilleSpiller3.IsEditable = false;
 		this.LilleSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.LilleSpiller3);
 		global::Gtk.Fixed.FixedChild w82 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.LilleSpiller3]));
@@ -1049,7 +1049,7 @@ public partial class MainWindow
 		this.StorSpiller3.WidthRequest = 100;
 		this.StorSpiller3.CanFocus = true;
 		this.StorSpiller3.Name = "StorSpiller3";
-		this.StorSpiller3.IsEditable = true;
+		this.StorSpiller3.IsEditable = false;
 		this.StorSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.StorSpiller3);
 		global::Gtk.Fixed.FixedChild w83 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.StorSpiller3]));
@@ -1060,7 +1060,7 @@ public partial class MainWindow
 		this.HusSpiller3.WidthRequest = 100;
 		this.HusSpiller3.CanFocus = true;
 		this.HusSpiller3.Name = "HusSpiller3";
-		this.HusSpiller3.IsEditable = true;
+		this.HusSpiller3.IsEditable = false;
 		this.HusSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.HusSpiller3);
 		global::Gtk.Fixed.FixedChild w84 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.HusSpiller3]));
@@ -1071,7 +1071,7 @@ public partial class MainWindow
 		this.ChancenSpiller3.WidthRequest = 100;
 		this.ChancenSpiller3.CanFocus = true;
 		this.ChancenSpiller3.Name = "ChancenSpiller3";
-		this.ChancenSpiller3.IsEditable = true;
+		this.ChancenSpiller3.IsEditable = false;
 		this.ChancenSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.ChancenSpiller3);
 		global::Gtk.Fixed.FixedChild w85 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.ChancenSpiller3]));
@@ -1082,7 +1082,7 @@ public partial class MainWindow
 		this.YatzySpiller3.WidthRequest = 100;
 		this.YatzySpiller3.CanFocus = true;
 		this.YatzySpiller3.Name = "YatzySpiller3";
-		this.YatzySpiller3.IsEditable = true;
+		this.YatzySpiller3.IsEditable = false;
 		this.YatzySpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.YatzySpiller3);
 		global::Gtk.Fixed.FixedChild w86 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.YatzySpiller3]));
@@ -1093,7 +1093,7 @@ public partial class MainWindow
 		this.SumSpiller3.WidthRequest = 100;
 		this.SumSpiller3.CanFocus = true;
 		this.SumSpiller3.Name = "SumSpiller3";
-		this.SumSpiller3.IsEditable = true;
+		this.SumSpiller3.IsEditable = false;
 		this.SumSpiller3.InvisibleChar = '●';
 		this.fixed2.Add(this.SumSpiller3);
 		global::Gtk.Fixed.FixedChild w87 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.SumSpiller3]));
@@ -1155,25 +1155,13 @@ public partial class MainWindow
 		w92.X = 440;
 		w92.Y = 70;
 		// Container child fixed2.Gtk.Fixed+FixedChild
-		this.entry63 = new global::Gtk.Entry();
-		this.entry63.WidthRequest = 145;
-		this.entry63.HeightRequest = 202;
-		this.entry63.CanFocus = true;
-		this.entry63.Name = "entry63";
-		this.entry63.IsEditable = true;
-		this.entry63.InvisibleChar = '●';
-		this.fixed2.Add(this.entry63);
-		global::Gtk.Fixed.FixedChild w93 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.entry63]));
-		w93.X = 490;
-		w93.Y = 125;
-		// Container child fixed2.Gtk.Fixed+FixedChild
 		this.label23 = new global::Gtk.Label();
 		this.label23.Name = "label23";
 		this.label23.LabelProp = global::Mono.Unix.Catalog.GetString("Muligheder:");
 		this.fixed2.Add(this.label23);
-		global::Gtk.Fixed.FixedChild w94 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.label23]));
-		w94.X = 495;
-		w94.Y = 110;
+		global::Gtk.Fixed.FixedChild w93 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.label23]));
+		w93.X = 495;
+		w93.Y = 110;
 		// Container child fixed2.Gtk.Fixed+FixedChild
 		this.button4 = new global::Gtk.Button();
 		this.button4.CanFocus = true;
@@ -1181,15 +1169,23 @@ public partial class MainWindow
 		this.button4.UseUnderline = true;
 		this.button4.Label = global::Mono.Unix.Catalog.GetString("Vælg");
 		this.fixed2.Add(this.button4);
-		global::Gtk.Fixed.FixedChild w95 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.button4]));
-		w95.X = 592;
-		w95.Y = 98;
+		global::Gtk.Fixed.FixedChild w94 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.button4]));
+		w94.X = 592;
+		w94.Y = 98;
+		// Container child fixed2.Gtk.Fixed+FixedChild
+		this.mulighederCombo = global::Gtk.ComboBoxEntry.NewText();
+		this.mulighederCombo.WidthRequest = 145;
+		this.mulighederCombo.Name = "mulighederCombo";
+		this.fixed2.Add(this.mulighederCombo);
+		global::Gtk.Fixed.FixedChild w95 = ((global::Gtk.Fixed.FixedChild)(this.fixed2[this.mulighederCombo]));
+		w95.X = 490;
+		w95.Y = 130;
 		this.Add(this.fixed2);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();
 		}
-		this.DefaultWidth = 706;
+		this.DefaultWidth = 780;
 		this.DefaultHeight = 739;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
