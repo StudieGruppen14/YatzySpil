@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -61,8 +60,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Terning.cs" />
     <Compile Include="Bæger.cs" />
-    <Compile Include="Muligheder.cs" />
-    <Compile Include="Spillere.cs" />
+    <Compile Include="YatzySpiller.cs" />
+    <Compile Include="Kolonne.cs" />
+    <Compile Include="PointFelt.cs" />
+    <Compile Include="Mulighed.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

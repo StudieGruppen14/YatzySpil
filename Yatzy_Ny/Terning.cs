@@ -4,23 +4,26 @@ public class Terning
 {
     private int Øjne;
     private static Random r = new Random(); // static = det betyder at der er én random generator
-    private Boolean HoldMig = false;
+    private global::Gtk.Entry entry;
+    private global::Gtk.CheckButton checkButton;
 
-    public Terning()
+    public Terning(global::Gtk.Entry entry, global::Gtk.CheckButton checkButton)
     {
-        KastTerning();
+        this.entry = entry;
+        this.checkButton = checkButton;
     }
 
     public void KastTerning()
     {
-        if (HoldMig == false)
+        if (checkButton.Active == false)
         {
             Øjne = r.Next(1, 7);
+            entry.Text = Øjne.ToString();
         }
     }
     public void HoldTerning(Boolean Hold)
     {
-        HoldMig = Hold;
+        checkButton.Active = Hold;
     }
 
     public int AntalØjne

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Yatzy
 {
-    public class Muligheder
+    public class Mulighed
     {
-        public Muligheder()
+        public Mulighed()
         {
         }
     }

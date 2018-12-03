@@ -2,11 +2,20 @@
 
 public class Bæger
 {
-    public Terning Terning1 = new Terning();
-    public Terning Terning2 = new Terning();
-    public Terning Terning3 = new Terning();
-    public Terning Terning4 = new Terning();
-    public Terning Terning5 = new Terning();
+    public Terning Terning1;
+    public Terning Terning2;
+    public Terning Terning3;
+    public Terning Terning4;
+    public Terning Terning5;
+
+    public Bæger(global::Gtk.Entry[] entries, global::Gtk.CheckButton[] checkButtons)
+    {
+        Terning1 = new Terning(entries[0], checkButtons[0]);
+        Terning2 = new Terning(entries[1], checkButtons[1]);
+        Terning3 = new Terning(entries[2], checkButtons[2]);
+        Terning4 = new Terning(entries[3], checkButtons[3]);
+        Terning5 = new Terning(entries[4], checkButtons[4]);
+    }
 
     public void RystBæger()
     {
@@ -132,56 +141,59 @@ public class Bæger
     // LILLE 
 
     public int PointLille()
-
     {
-        if (HvorMangeAfEnSlags(1) == 1 && HvorMangeAfEnSlags(1) == 2 && HvorMangeAfEnSlags(1) == 3 && HvorMangeAfEnSlags(1) == 4 && HvorMangeAfEnSlags(1) == 5)
+        if (HvorMangeAfEnSlags(1) == 1 && HvorMangeAfEnSlags(2) == 1 && HvorMangeAfEnSlags(3) == 1 && HvorMangeAfEnSlags(4) == 1 && HvorMangeAfEnSlags(5) == 1)
             return 15;
-
         else
-
             return 0;
-        }
+    }
 
 
     // STOR 
 
+    public int PointStor()
+
+    {
+        if (HvorMangeAfEnSlags(2) == 1 && HvorMangeAfEnSlags(3) == 1 && HvorMangeAfEnSlags(4) == 1 && HvorMangeAfEnSlags(5) == 1 && HvorMangeAfEnSlags(6) == 1)
+            return 20;
+
+        else
+
+            return 0;
+    }
 
     // HUS
 
-    public int PointHus()
-    {
-        int FørstePar = 0;
+    public int PointHus()     {
+        int EtPar = 0;
         int TreEns = 0;
 
         for (int i = 6; i >= 1; --i)
         {
-            if (HvorMangeAfEnSlags(i) == 2)
+            if (HvorMangeAfEnSlags(i) == 3)
             {
-                if (TreEns == 0)
-                {
-                    FørstePar = i * 2;
-                }
-                else
-                    return TreEns + i * 2;
+                TreEns = i * 3;
+            }
+            else
+                if (HvorMangeAfEnSlags(i) == 2)
+            {
+                EtPar = i * 2;
+            }
 
-                if (HvorMangeAfEnSlags(i) == 3)
-                {
-                    if (FørstePar == 0)
-                    {
-                        TreEns = i * 3;
-                    }
-                    else
-                        return FørstePar + i * 3;
-                }
+            if (EtPar != 0 && TreEns != 0)
+            {
+                return EtPar + TreEns;
             }
         }
         return 0;
-
     }
 
-    // CHANCEN 
+   // CHANCEN 
 
-
+    public int PointChancen()
+    {
+        return Terning1.AntalØjne + Terning2.AntalØjne + Terning3.AntalØjne + Terning4.AntalØjne + Terning5.AntalØjne;
+    }
 
 
     // YATZY 
@@ -196,4 +208,6 @@ public class Bæger
         return 0;
     }
 
+
 }
+
