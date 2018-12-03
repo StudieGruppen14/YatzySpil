@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{BD2A0977-E2A7-406D-A8CB-D90559E4A88E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bæger.cs">
+    <Files>
+      <File FileName="Terning.cs" Line="26" Column="25" />
+      <File FileName="MainWindow.cs" Line="200" Column="20" />
+      <File FileName="Bæger.cs" Line="212" Column="43" />
+      <File FileName="YatzySpiller.cs" Line="156" Column="10" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Yatzy" expanded="True">
+            <Node name="Yatzy" expanded="True">
+              <Node name="Bæger.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Yatzy PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

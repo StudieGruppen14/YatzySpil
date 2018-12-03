@@ -1250,7 +1250,6 @@ public partial class MainWindow
 		this.DefaultWidth = 821;
 		this.DefaultHeight = 1171;
 		this.Show();
-		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 		this.StartSpilKnap.Clicked += new global::System.EventHandler(this.OnStartSpilKnapClicked);
 		this.KastTerningKnap.Clicked += new global::System.EventHandler(this.OnKastTerningKnapClicked);
 		this.Gem.Clicked += new global::System.EventHandler(this.OnGemClicked);

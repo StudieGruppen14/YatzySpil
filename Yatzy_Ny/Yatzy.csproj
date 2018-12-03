@@ -54,16 +54,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
-    <Compile Include="MainWindow.cs" />
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Terning.cs" />
     <Compile Include="Bæger.cs" />
+    <Compile Include="MainWindow.cs" />
     <Compile Include="YatzySpiller.cs" />
-    <Compile Include="Kolonne.cs" />
-    <Compile Include="PointFelt.cs" />
-    <Compile Include="Mulighed.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

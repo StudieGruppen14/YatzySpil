@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Bæger
+public class Bæger //et bærger har 5 terninger
 {
     public Terning Terning1;
     public Terning Terning2;
@@ -8,16 +8,16 @@ public class Bæger
     public Terning Terning4;
     public Terning Terning5;
 
-    public Bæger(global::Gtk.Entry[] entries, global::Gtk.CheckButton[] checkButtons)
+    public Bæger(Gtk.Entry[] entries, Gtk.CheckButton[] checkButtons)
     {
-        Terning1 = new Terning(entries[0], checkButtons[0]);
+        Terning1 = new Terning(entries[0], checkButtons[0]); //hver terning har en entry og en Hold-knap. Vi kalder contructoren fra Terning-klassen
         Terning2 = new Terning(entries[1], checkButtons[1]);
         Terning3 = new Terning(entries[2], checkButtons[2]);
         Terning4 = new Terning(entries[3], checkButtons[3]);
         Terning5 = new Terning(entries[4], checkButtons[4]);
     }
 
-    public void RystBæger()
+    public void RystBæger() //metode der ryster bæger/kaster terninger
     {
         Terning1.KastTerning();
         Terning2.KastTerning();
@@ -26,11 +26,20 @@ public class Bæger
         Terning5.KastTerning();
     }
 
-    private int HvorMangeAfEnSlags(int Slags)
-    {
-        int Antal = 0;
+    public void NulstilAlleTerninger() //Metode, der nulstiller terningerne
+    {  
+        Terning1.Nulstil();
+        Terning2.Nulstil();
+        Terning3.Nulstil();
+        Terning4.Nulstil();
+        Terning5.Nulstil();
+    }
 
-        if (Terning1.AntalØjne == Slags)
+    private int HvorMangeAfEnSlags(int Slags) //Metode, der bruges til flere ting: hvor mange terninger har vi af hver slags
+    {
+        int Antal = 0; // Hvis ikke andet, så er den 0 i starten
+
+        if (Terning1.AntalØjne == Slags) //Hvis terning 1s antal øjne er den slags, vi leder efter = tæller vi én op af den slags, vi har (++)
         { Antal++; }
         if (Terning2.AntalØjne == Slags)
         { Antal++; }
@@ -40,39 +49,40 @@ public class Bæger
         { Antal++; }
         if (Terning5.AntalØjne == Slags) // ++ betyder at antal = antal plus 1
         { Antal++; }
-        return Antal;
+
+        return Antal; // vi returnerer det antal vi har
     }
 
     // HVOR MANGE AF EN SLAGS (1-6)
 
     public int Point1ere()
     {
-        return HvorMangeAfEnSlags(1);
+        return HvorMangeAfEnSlags(1) * 1; 
     }
 
     public int Point2ere()
     {
-        return HvorMangeAfEnSlags(2);
+        return HvorMangeAfEnSlags(2) * 2;
     }
 
     public int Point3ere()
     {
-        return HvorMangeAfEnSlags(3);
+        return HvorMangeAfEnSlags(3) * 3;
     }
 
     public int Point4ere()
     {
-        return HvorMangeAfEnSlags(4);
+        return HvorMangeAfEnSlags(4) * 4;
     }
 
     public int Point5ere()
     {
-        return HvorMangeAfEnSlags(5);
+        return HvorMangeAfEnSlags(5) * 5;
     }
 
     public int Point6ere()
     {
-        return HvorMangeAfEnSlags(6);
+        return HvorMangeAfEnSlags(6) * 6; //Vi ganger med tallet for at returnere antal point
     }
 
     // ET PAR 
@@ -118,7 +128,7 @@ public class Bæger
 
     public int Point3ens()
     {
-        for (int i = 6; i >= 1; --i)
+        for (int i = 6; i >= 1; --i) //*for-lykken kan vendes om, så man tæller op fra 1 i stedet for tæller ned fra 6
         {
             if (HvorMangeAfEnSlags(i) > 2)
             { return HvorMangeAfEnSlags(i) * 3; }
@@ -174,12 +184,10 @@ public class Bæger
             {
                 TreEns = i * 3;
             }
-            else
-                if (HvorMangeAfEnSlags(i) == 2)
+            else if (HvorMangeAfEnSlags(i) == 2)
             {
                 EtPar = i * 2;
             }
-
             if (EtPar != 0 && TreEns != 0)
             {
                 return EtPar + TreEns;
@@ -202,12 +210,11 @@ public class Bæger
     {
         for (int i = 6; i >= 1; --i)
         {
-            if (HvorMangeAfEnSlags(i) > 4)
-            { return HvorMangeAfEnSlags(i) * 5; }
+            if (HvorMangeAfEnSlags(i) == 5)
+            {
+                return 50;
+            }
         }
         return 0;
     }
-
-
 }
-
